@@ -5,13 +5,8 @@ import router from './router'
 import store from './store'
 import axios from 'axios'
 import VueAxios from 'vue-axios'
-import VueCharts, { Bar, Line } from 'vue-chartjs'
 
 Vue.use(VueAxios, axios)
-Vue.components('v-chart', VueCharts)
-Vue.components('bar', Bar)
-Vue.components('line', Line)
-
 Vue.config.productionTip = false
 
 new Vue({
